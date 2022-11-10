@@ -19,7 +19,7 @@
   /* Colors */
   --c-black-primary: #0C0C0C;
   --c-black-secondary: #181818;
-  --c-white: #FFFFFF;
+  --c-white-primary: #FFFFFF;
   --c-gray-primary: #232323;
   --c-gray-secondary: #2F2F2F;
   --c-orange-primary: #CF7C00;
@@ -30,4 +30,17 @@
   --s-m: 2.4rem;
   --s-l: 3.2rem;
   --s-xl: 4.8rem;
+}
+
+p {
+  font-size: var(--f-s);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--c-white-primary);
 }
