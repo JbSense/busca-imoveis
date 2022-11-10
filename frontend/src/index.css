@@ -30,6 +30,13 @@
   --s-m: 2.4rem;
   --s-l: 3.2rem;
   --s-xl: 4.8rem;
+
+  /* Borders */
+  --b-xs: 1.2rem;
+  --b-s: 1.6rem;
+  --b-m: 2.4rem;
+  --b-l: 3.2rem;
+  --b-xl: 4.8rem;
 }
 
 p {
@@ -43,4 +50,22 @@ ul {
 a {
   text-decoration: none;
   color: var(--c-white-primary);
+}
+
+input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+/* Styles class */
+.btn-primary {
+  width: 100%;
+  padding: 1rem 1.6rem;
+  border-radius: var(--b-l);
+  background-color: var(--c-orange-primary);
+  font-size: var(--f-s);
+  font-weight: bold;
+  color: var(--c-white-primary);
+  cursor: pointer;
 }
