@@ -1,0 +1,28 @@
+.Card-vertical {
+  width: 23rem;
+  height: 38rem;
+  border-radius: var(--b-l);
+  position: relative;
+}
+
+.Card-vertical--shadow {
+  width: 100%;
+  height: 100%;
+  background-color: var(--c-black-primary-op);
+  /* backdrop-filter: blur(1px); */
+  position: absolute;
+  border-radius: var(--b-l);
+}
+
+.Card-vertical--image {
+  width: 100%;
+  height: 100%;
+  border-radius: var(--b-l);
+}
+
+.Card-vertical--info {
+  font-weight: bold;
+  position: absolute;
+  left: var(--s-m);
+  bottom: var(--s-m);
+}

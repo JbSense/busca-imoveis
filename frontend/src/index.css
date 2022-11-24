@@ -18,6 +18,7 @@
 
   /* Colors */
   --c-black-primary: #0C0C0C;
+  --c-black-primary-op: #0c0c0c93;
   --c-black-secondary: #181818;
   --c-white-primary: #FFFFFF;
   --c-gray-primary: #232323;
@@ -31,7 +32,7 @@
   --s-l: 3.2rem;
   --s-xl: 4.8rem;
 
-  /* Borders */
+  /* Border radius */
   --b-xs: 1.2rem;
   --b-s: 1.6rem;
   --b-m: 2.4rem;
@@ -68,4 +69,5 @@ input {
   font-weight: bold;
   color: var(--c-white-primary);
   cursor: pointer;
+  border: none;
 }
