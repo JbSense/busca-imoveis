@@ -1,13 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-size: 62.5%;
-  font-family: 'Space Grotesk', sans-serif;
-}
-
 :root {
   /* Fonts */
   --f-xs: 1.2rem;
@@ -40,6 +32,14 @@
   --b-xl: 4.8rem;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
 p {
   font-size: var(--f-s);
 }
@@ -59,7 +59,30 @@ input {
   outline: none;
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+textarea {
+  outline: none;
+  resize: none;
+}
+
 /* Styles class */
+.title {
+  font-size: var(--f-l);
+}
+
+.subtitle {
+  font-size: var(--b-m);
+}
+
 .btn-primary {
   width: 100%;
   padding: 1rem 1.6rem;
@@ -70,4 +93,30 @@ input {
   color: var(--c-white-primary);
   cursor: pointer;
   border: none;
+}
+
+.input-primary {
+  width: 100%;
+  padding: 1rem 1.6rem;
+  background-color: var(--c-gray-primary);
+  border-radius: var(--b-l);
+}
+
+.input-primary input {
+  width: 100%;
+  font-size: var(--f-s);
+  color: var(--c-white-primary);
+}
+
+.input-primary textarea {
+  width: 100%;
+  font-size: var(--f-s);
+  color: var(--c-white-primary);
+  background-color: transparent;
+  border: none;
+}
+
+.element-scroll {
+  overflow-x: scroll;
+  display: flex;
 }

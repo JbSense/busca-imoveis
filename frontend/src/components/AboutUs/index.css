@@ -1,0 +1,15 @@
+.About-us--text {
+  margin-top: var(--s-xs);
+  text-align: justify;
+}
+
+.About-us__scroll {
+  overflow: scroll;
+  display: flex;
+}
+
+.About-us__infos {
+  margin-top: var(--s-m);
+  display: flex;
+  gap: var(--s-m);
+}

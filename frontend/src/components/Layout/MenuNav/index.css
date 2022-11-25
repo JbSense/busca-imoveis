@@ -3,7 +3,7 @@
   height: 100vh;
   background-color: var(--c-black-primary-op);
   backdrop-filter: blur(5px);
-  position: absolute;
+  position: fixed;
   z-index: 12;
   display: flex;
   align-items: center;

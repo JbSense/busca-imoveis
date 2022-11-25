@@ -5,13 +5,20 @@
   position: relative;
 }
 
+.Card-vertical:hover > .Card-vertical--shadow {
+  background-color: var(--c-black-primary-op);
+}
+
+.Card-vertical:hover > .Card-vertical--info {
+  color: var(--c-white-primary);
+}
+
 .Card-vertical--shadow {
   width: 100%;
   height: 100%;
-  background-color: var(--c-black-primary-op);
-  /* backdrop-filter: blur(1px); */
-  position: absolute;
   border-radius: var(--b-l);
+  transition: .3s ease;
+  position: absolute;
 }
 
 .Card-vertical--image {
@@ -21,7 +28,9 @@
 }
 
 .Card-vertical--info {
+  color: transparent;
   font-weight: bold;
+  transition: .3s ease;
   position: absolute;
   left: var(--s-m);
   bottom: var(--s-m);

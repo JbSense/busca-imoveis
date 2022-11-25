@@ -1,17 +1,24 @@
 .Card-horizontal {
-  width: 38rem;
-  height: 23rem;
+  width: 28rem;
+  height: 17rem;
   border-radius: var(--b-l);
   position: relative;
+}
+
+.Card-horizontal:hover > .Card-horizontal--shadow {
+  background-color: var(--c-black-primary-op);
+}
+
+.Card-horizontal:hover > .Card-horizontal--info {
+  color: var(--c-white-primary);
 }
 
 .Card-horizontal--shadow {
   width: 100%;
   height: 100%;
-  background-color: var(--c-black-primary-op);
-  /* backdrop-filter: blur(1px); */
-  position: absolute;
   border-radius: var(--b-l);
+  position: absolute;
+  transition: .3s ease;
 }
 
 .Card-horizontal--image {
@@ -21,7 +28,9 @@
 }
 
 .Card-horizontal--info {
+  color: transparent;
   font-weight: bold;
+  transition: .3s ease;
   position: absolute;
   left: var(--s-m);
   bottom: var(--s-m);

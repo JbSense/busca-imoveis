@@ -1,0 +1,45 @@
+.Home {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-l);
+}
+
+.Home__banner {
+  width: 100%;
+}
+
+.Home__banner > img {
+  width: 100%;
+  border-radius: var(--b-s);
+}
+
+.Home__property-type-scroll {
+  overflow-x: scroll;
+  display: flex;
+}
+
+.Home__property-type {
+  display: flex;
+  gap: var(--s-xs);
+}
+
+.Home__sell-your {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Home__sell-your > p {
+  text-align: center;
+  margin-top: var(--s-xs);
+}
+
+.Home__sell-your > button {
+  width: 12rem;
+  margin-top: var(--s-m);
+}
+
+.Home__showcase .Showcase {
+  margin-top: var(--s-m);
+}

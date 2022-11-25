@@ -1,0 +1,19 @@
+.Card-info {
+  width: 12rem;
+  height: 12rem;
+  border-radius: var(--b-s);
+  background-color: var(--c-gray-secondary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Card-info--primary-info {
+  font-size: var(--f-m);
+  font-weight: bold;
+}
+
+.Card-info--second-info {
+  text-align: center;
+}
