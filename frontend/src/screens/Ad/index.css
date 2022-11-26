@@ -1,0 +1,69 @@
+.Ad {
+  display: grid;
+  grid-gap: var(--s-m);
+}
+
+.Ad__gallery {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.Ad__gallery > p {
+  position: absolute;
+  bottom: var(--s-s);
+}
+
+.Ad__gallery img {
+  width: 100%;
+  border-bottom-left-radius: var(--b-l);
+  border-bottom-right-radius: var(--b-l);
+}
+
+.base-infos--local {
+  margin-top: var(--s-xs);
+  display: flex;
+  gap: var(--s-xs);
+}
+
+.base-infos--local > img {
+  height: var(--s-m);
+}
+
+.Ad--info-text {
+  text-align: justify;
+}
+
+.Ad--price {
+  justify-self: center;
+}
+
+.Ad__sizes-property {
+  display: flex;
+  justify-content: center;
+  gap: var(--s-l);
+}
+
+.sizes-property__sizes {
+  display: flex;
+  align-items: center;
+  gap: .6rem;
+}
+
+.sizes-property__sizes > h1 {
+  font-size: 5.5rem;
+}
+
+.sizes--subtitle > p {
+  color: var(--c-gray-secondary);
+  font-weight: bold;
+}
+
+.Ad__plan {
+  width: 100%;
+}
+
+.Ad__plan > img {
+  width: 100%;
+}

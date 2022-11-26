@@ -14,11 +14,6 @@
   border-radius: var(--b-s);
 }
 
-.Home__property-type-scroll {
-  overflow-x: scroll;
-  display: flex;
-}
-
 .Home__property-type {
   display: flex;
   gap: var(--s-xs);

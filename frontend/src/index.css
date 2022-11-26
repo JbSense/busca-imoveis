@@ -84,7 +84,6 @@ textarea {
 }
 
 .btn-primary {
-  width: 100%;
   padding: 1rem 1.6rem;
   border-radius: var(--b-l);
   background-color: var(--c-orange-primary);
@@ -116,7 +115,8 @@ textarea {
   border: none;
 }
 
-.element-scroll {
+.section-scroll {
   overflow-x: scroll;
+  overflow-y: hidden;
   display: flex;
 }

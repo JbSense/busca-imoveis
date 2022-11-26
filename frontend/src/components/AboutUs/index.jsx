@@ -13,7 +13,7 @@ function AboutUs () {
         piece of classical Latin literature from 45 BC, making it over 2000 years old.
       </p>
 
-      <span className='About-us__scroll'>
+      <span className='section-scroll'>
         <div className='About-us__infos'>
           <CardInfo
             primaryInfo='+ de 50'

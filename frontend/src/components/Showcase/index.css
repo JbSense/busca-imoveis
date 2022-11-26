@@ -1,4 +1,11 @@
 .Showcase {
+  width: 100%;
+  display: grid;
+  grid-gap: var(--s-s);
+}
+
+.Showcase__ads {
+  width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: var(--s-s);

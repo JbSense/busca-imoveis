@@ -15,7 +15,7 @@ function Home () {
 
       <AboutUs />
 
-      <span className='Home__property-type-scroll'>
+      <span className='section-scroll'>
         <div className='Home__property-type'>
           <CardVertical
             link='#'
@@ -49,13 +49,7 @@ function Home () {
         <button className='btn-primary'>Contato</button>
       </div>
 
-      <div className='Home__showcase'>
-        <h1 className='title'>Destaques</h1>
-
-        <span className='element-scroll'>
-          <Showcase />
-        </span>
-      </div>
+      <Showcase />
 
       <ContactUs />
 
