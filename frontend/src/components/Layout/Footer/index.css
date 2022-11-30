@@ -1,12 +1,9 @@
 .Footer {
   width: 100%;
   height: 30rem;
+  padding: var(--s-m);
   border-top-left-radius: var(--b-l);
   border-top-right-radius: var(--b-l);
   background-color: var(--c-gray-primary);
   margin-top: var(--s-l);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: var(--f-l);
 }

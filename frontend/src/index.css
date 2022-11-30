@@ -16,6 +16,7 @@
   --c-gray-primary: #232323;
   --c-gray-secondary: #2F2F2F;
   --c-orange-primary: #CF7C00;
+  --c-red-primary: #FC2805;
 
   /* Spaces */
   --s-xs: 1.2rem;
@@ -30,6 +31,11 @@
   --b-m: 2.4rem;
   --b-l: 3.2rem;
   --b-xl: 4.8rem;
+
+
+  --side-padding: 20px;
+  --border-radius: 34px;
+  --accent-br: 15px;
 }
 
 * {
@@ -69,6 +75,10 @@ input[type=number] {
   -moz-appearance: textfield;
 }
 
+input[type="file"] {
+  display: none;
+}
+
 textarea {
   outline: none;
   resize: none;
@@ -89,9 +99,28 @@ textarea {
   background-color: var(--c-orange-primary);
   font-size: var(--f-s);
   font-weight: bold;
+  text-align: center;
   color: var(--c-white-primary);
   cursor: pointer;
   border: none;
+}
+
+.btn-secondary,
+.btn-secondary-red {
+  padding: 1rem 1.6rem;
+  border: 2px solid var(--c-orange-primary);
+  border-radius: var(--b-l);
+  background-color: transparent;
+  font-size: var(--f-s);
+  font-weight: bold;
+  text-align: center;
+  color: var(--c-orange-primary);
+  cursor: pointer;
+}
+
+.btn-secondary-red {
+  border-color: var(--c-red-primary);
+  color: var(--c-red-primary);
 }
 
 .input-primary {
@@ -113,6 +142,23 @@ textarea {
   color: var(--c-white-primary);
   background-color: transparent;
   border: none;
+}
+
+.input-primary select {
+  width: 100%;
+  height: 100%;
+  outline: none;
+  background-color: var(--c-gray-primary);
+  border: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-size: var(--f-s);
+  color: var(--c-white-primary);
+}
+
+.input-primary select option {
+  font-size: var(--f-s);
 }
 
 .section-scroll {

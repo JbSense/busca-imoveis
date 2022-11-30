@@ -1,4 +1,4 @@
-.Login {
+.Create-account {
   height: 70vh;
   display: flex;
   flex-direction: column;
@@ -6,34 +6,34 @@
   grid-gap: var(--s-m);
 }
 
-.Login__inputs {
+.Create-account__inputs {
   display: grid;
   gap: var(--s-xs);
 }
 
-.Login__actions {
+.Create-account__actions {
   display: grid;
   grid-gap: var(--s-xs);
 }
 
-.Login__actions > button {
+.Create-account__actions > button {
   width: 100%;
 }
 
-.Login--no-account-align {
+.Create-account--has-account-align {
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
-.Login--no-account {
+.Create-account--has-account {
   font-size: var(--f-xs);
   text-align: center;
   border-bottom: 1px solid var(--c-white-primary);
   transition: .3s ease;
 }
 
-.Login--no-account:hover {
+.Create-account--has-account:hover {
   color: var(--c-orange-primary);
   border-color: var(--c-orange-primary);
 }

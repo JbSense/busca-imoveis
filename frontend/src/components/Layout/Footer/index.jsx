@@ -1,9 +1,13 @@
 import React from 'react'
 import './index.css'
 
+import Contacts from '../../Contacts'
+
 function Footer () {
   return (
-    <div className='Footer'>Footer</div>
+    <div className='Footer'>
+      <Contacts />
+    </div>
   )
 }
 

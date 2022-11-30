@@ -1,0 +1,11 @@
+.Scheduling {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-m);
+}
+
+.Scheduling__inputs {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-s);
+}

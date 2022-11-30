@@ -6,9 +6,9 @@ function MenuNav () {
   return (
     <nav className='Menu-nav'>
       <ul>
-        <li><Link to='#'>Item 1</Link></li>
-        <li><Link to='#'>Item 2</Link></li>
-        <li><Link to='#'>Item 3</Link></li>
+        <li><Link to='/login'>Login</Link></li>
+        <li><Link to='/create-account'>Criar conta</Link></li>
+        <li><Link to='/show-admin-account'>Minha conta</Link></li>
       </ul>
     </nav>
   )

@@ -1,0 +1,16 @@
+.Edit-admin {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  grid-gap: var(--s-m);
+}
+
+.Edit-admin__inputs {
+  display: grid;
+  gap: var(--s-xs);
+}
+
+.Edit-admin > button {
+  width: 100%;
+}

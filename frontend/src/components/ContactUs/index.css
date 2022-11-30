@@ -1,6 +1,6 @@
 .Contact-us {
   width: 100%;
-  max-width: 35rem;
+  max-width: 50rem;
   display: flex;
   flex-direction: column;
   gap: var(--s-xs);

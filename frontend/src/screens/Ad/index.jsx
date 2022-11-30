@@ -3,6 +3,7 @@ import './index.css'
 
 import InfoIconBar from '../../components/InfoIconBar'
 import Showcase from '../../components/Showcase'
+import Scheduling from '../../components/Scheduling'
 
 function Ad () {
   const infos = [
@@ -41,7 +42,7 @@ function Ad () {
       <div className='Ad__base-infos'>
         <h2 className='subtitle'>Apartamento mobiliado</h2>
         <span className='base-infos--local'>
-          <img src='icons/pin-2.png' alt='Pin' />
+          <img src='icons/red-pin.svg' alt='Pin' />
           <p>Rua XXXX XXXX, 123</p>
         </span>
       </div>
@@ -77,6 +78,8 @@ function Ad () {
       <div className='Ad__plan'>
         <img src='images/kut6436.png' alt='Planta do imóvel' />
       </div>
+
+      <Scheduling />
 
       <Showcase />
     </div>

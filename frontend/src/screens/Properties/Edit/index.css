@@ -1,0 +1,7 @@
+.Edit-properties {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  grid-gap: var(--s-m);
+}

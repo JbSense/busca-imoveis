@@ -11,7 +11,7 @@ function Showcase () {
       <div className='section-scroll'>
         <div className='Showcase__ads'>
           <CardHorizontal
-            link='#'
+            link='/ad'
             imagePath='images/asg5252.jpg'
             info='Paris - França'
           />

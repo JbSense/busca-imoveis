@@ -1,16 +1,3 @@
-.Test {
-  height: 80vh;
-}
-
-.Test__info-icon-bar {
-  padding: var(--s-s);
-  border-radius: var(--b-m);
-  background-color: var(--c-gray-primary);
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-
 .Icon-info {
   width: 5rem;
   display: flex;

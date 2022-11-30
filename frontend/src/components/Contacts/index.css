@@ -1,0 +1,36 @@
+.Contacts {
+  width: 100%;
+  display: grid;
+  grid-gap: var(--s-l);
+}
+
+.Contacts__contact,
+.Contacts__social-media {
+  display: grid;
+  grid-gap: var(--s-xs);
+}
+
+.contact--element {
+  display: flex;
+  align-items: center;
+  gap: var(--s-xs);
+}
+
+.contact--element > img {
+  width: var(--s-m);
+}
+
+.social-media__icons {
+  display: flex;
+  gap: var(--s-s);
+}
+
+.social-media__icon {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 100%;
+  background-color: var(--c-black-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

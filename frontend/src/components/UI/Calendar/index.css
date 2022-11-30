@@ -1,0 +1,76 @@
+.Calendar {
+  width: 100%;
+  max-width: 50rem;
+  background-color: var(--c-gray-primary);
+  border-radius: var(--b-l);
+}
+
+.Calendar__options {
+  width: 100%;
+  padding: var(--s-s);
+  background-color: var(--c-gray-secondary);
+  border-top-right-radius: var(--b-l);
+  border-top-left-radius: var(--b-l);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  grid-gap: var(--s-s);
+}
+
+.Calendar__options select {
+  width: 90%;
+  padding: var(--s-xs) var(--s-s);
+  border-radius: var(--b-m);
+  background-color: var(--c-black-primary);
+  outline: none;
+  border: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-size: var(--f-s);
+  color: var(--c-white-primary);
+  text-align: center;
+}
+
+.Calendar__options option {
+  font-size: var(--f-s);
+  color: var(--c-white-primary);
+}
+
+.Calendar__week-day {
+  grid-column: 1/3;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  justify-items: center;
+}
+
+.Calendar__days {
+  padding: var(--s-s);
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  justify-items: center;
+  grid-gap: var(--s-s) 0;
+}
+
+.Calendar__day {
+  /* background-color: var(--c-orange-primary); */
+}
+
+.Calendar__day input {
+  display: none;
+}
+
+.Calendar__day input:checked ~ label {
+  background-color: var(--c-orange-primary);
+}
+
+.Calendar__day label {
+  width: 3rem;
+  height: 3rem;
+  font-size: var(--f-s);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,23 @@
+.Show-admin {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: var(--s-m);
+}
+
+.Show-admin__actions {
+  display: grid;
+  justify-items: center;
+  grid-gap: var(--s-s);
+}
+
+.Show-admin__actions > a:nth-child(1),
+.Show-admin__actions > a:nth-child(2),
+.Show-admin__actions > a:nth-child(3) {
+  width: 100%;
+}
+
+.Show-admin__actions > a:nth-child(4) {
+  width: 50%;
+}

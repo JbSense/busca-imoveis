@@ -5,6 +5,7 @@ function ContactUs () {
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
   const [phone, setPhone] = useState('')
+  const [message, setMessage] = useState('')
 
   return (
     <div className='Contact-us'>
@@ -41,7 +42,15 @@ function ContactUs () {
       </div>
 
       <div className='input-primary'>
-        <textarea name='' id='' cols='30' rows='6' placeholder='Menssagem'></textarea>
+        <textarea
+          name='message'
+          id=''
+          cols='30'
+          rows='6'
+          value={message}
+          placeholder='Mensagem'
+          onChange={(e) => { setMessage(e.target.value) }}
+        />
       </div>
 
       <button className='btn-primary'>Enviar</button>
